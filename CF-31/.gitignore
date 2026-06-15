@@ -1,0 +1,41 @@
+# Ignore Visual Studio Code workspace settings and local editor files
+.vscode/
+
+# Build artifacts and temporary files
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.a
+*.lib
+*.pch
+*.pdb
+*.ilk
+
+# C++ temporary and backup files
+*.tmp
+*.temp
+*~
+*.log
+*.pid
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled archives and packaged releases
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.vscode/*
